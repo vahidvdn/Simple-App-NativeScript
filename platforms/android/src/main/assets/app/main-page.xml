@@ -1,0 +1,14 @@
+<Page loaded="pageLoaded">
+  	<ActionBar title="Vahid Najafi" class="action-bar"></ActionBar>
+  	<!-- Your UI components go here -->
+
+  	<StackLayout orientation="vertical">
+  		<TextField width="300px" text="{{txtKeyword}}" hint="search keyword" />
+		<Button tap="signin" text="Search" height="50px" style="background-color:#0ab97a;width:300px;border:none;font-size:20px;" />
+		<ListView items="{{ images }}">
+		    <ListView.itemTemplate>
+		        <Image stretch="fill" height="200px" src="{{img}}" />
+		    </ListView.itemTemplate>
+		</ListView>
+	</StackLayout>
+</Page>
