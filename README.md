@@ -1,5 +1,5 @@
 # Simple-App-NativeScript
-A very simple application with nativescript to demonstrate it's truly native ui.
+A very simple application with nativescript to demonstrate it's truly native ui (None Angular project).
 
 ## What is going on?
 Just a simple form to get data and pictures from flickr.
